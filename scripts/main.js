@@ -40,7 +40,7 @@ $(document).ready(function() {
     var myNumber = [];
 
     for ( var i = 0; i < myHeaderText.length; i++ ) {
-        if (ParseInt(myHeaderText[i], 10)) {
+        if ( parseInt(myHeaderText[i], 10) ) {
             myNumber.push(myHeaderText[i]);
         }
     }
